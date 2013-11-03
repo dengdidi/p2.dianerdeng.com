@@ -24,12 +24,24 @@ class users_controller extends base_controller {
 
     public function profile($user_name = NULL) {
 
-        if($user_name == NULL) {
-            echo "No user specified";
-        }
-        else {
-            echo "This is the profile for ".$user_name;
-        }
+        # quick and dirty (* for printing results)
+        // if($user_name == NULL) {
+        //     echo "No user specified";
+        // }
+        // else {
+        //     echo "This is the profile for ".$user_name;
+        // }
+
+        # Create a new View instance
+        # Do *not* include .php with the view name
+            # $title is another variable used in _v_template to set the <title> of the page
+        $this->template->title = "Profile";
+
+        # Pass information to the view fragment
+        $this->template->content->user_name = $user_name;
+
+        # Render View
+        echo $this-template;
     }
 
 } # end of the class
