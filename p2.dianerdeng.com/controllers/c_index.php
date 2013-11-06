@@ -33,6 +33,9 @@ class index_controller extends base_controller {
 		# Render the view
 			echo $this->template;
 
+			require_once(DOC_ROOT."/core/libraries/DB.php");
+			echo Time::now();
+
 	} # End of method
 	
 	
