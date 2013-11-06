@@ -2,19 +2,19 @@
 class posts_controller extends base_controller {
 
     public function __construct() {
+        
         parent::__construct();
-
-        # Make sure user is logged in if they want to use anything in this controller
-        /*if(!$this->user) {
-            die("Members only. <a href='/users/login'>Login</a>");
-        }*/
+                
+        if(!$this->user){
+            Router::redirect("/");
+        }
     }
 
     public function add() {
 
         # Setup view
         $this->template->content = View::instance('v_posts_add');
-        $this->template->title   = "New Post";
+        $this->template->title   = "Post Now";
 
         # Render template
         echo $this->template;
@@ -23,19 +23,15 @@ class posts_controller extends base_controller {
 
     public function p_add() {
 
-        # Associate this post with this user
         $_POST['user_id']  = $this->user->user_id;
 
-        # Unix timestamp of when this post was created / modified
         $_POST['created']  = Time::now();
         $_POST['modified'] = Time::now();
 
-        # Insert
-        # Note we didn't have to sanitize any of the $_POST data because we're using the insert method which does it for us
         DB::instance(DB_NAME)->insert('posts', $_POST);
 
-        # Quick and dirty feedback
-        echo "Your post has been added. <a href='/posts/add'>Add another</a>";
+        #Send user to posts stream
+        Router::redirect('/posts/index');
 
     }
 
@@ -62,6 +58,51 @@ class posts_controller extends base_controller {
 
         # Render the View
         echo $this->template;
-
     }
+    
+    public function users() {
+                
+        $this->template->content = View::instance("v_posts_users");
+                
+        $q = 'SELECT * 
+                FROM users';
+                
+        $users = DB::instance(DB_NAME)->select_rows($q);
+                
+        $q = 'SELECT * 
+                FROM users_users 
+                WHERE user_id = '.$this->user->user_id;
+                        
+        $connections = DB::instance(DB_NAME)->select_array($q, 'user_id_followed');
+                
+        $this->template->content->users = $users;
+        $this->template->content->connections = $connections;
+                
+        echo $this->template;
+                
+        }
+    
+    public function follow($user_id_followed) {
+        
+        $data = Array(
+            "created" => Time::now(),
+            "user_id" => $this->user->user_id,
+            "user_id_followed" => $user_id_followed
+            );
+        
+        DB::instance(DB_NAME)->insert('users_users', $data);
+        
+        Router::redirect("/posts/users");
+        }
+    
+    public function unfollow($user_id_followed) {
+
+        $where_condition = 'WHERE user_id = '.$this->user->user_id.' AND user_id_followed = '.$user_id_followed;
+        DB::instance(DB_NAME)->delete('users_users', $where_condition);
+
+        # Send them backe
+        Router::redirect("/posts/users");
+    }
+}
+?>
 }

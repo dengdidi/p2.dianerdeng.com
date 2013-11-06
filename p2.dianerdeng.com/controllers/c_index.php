@@ -19,7 +19,7 @@ class index_controller extends base_controller {
 			$this->template->content = View::instance('v_index_index');
 			
 		# Now set the <title> tag
-			$this->template->title = "Hello World";
+			$this->template->title = "Homepage";
 	
 		# CSS/JS includes
 			/*
@@ -33,8 +33,8 @@ class index_controller extends base_controller {
 		# Render the view
 			echo $this->template;
 
-			require_once(DOC_ROOT."/core/libraries/DB.php");
-			echo Time::now();
+			// require_once(DOC_ROOT."/core/libraries/DB.php");
+			// echo Time::now();
 
 	} # End of method
 	

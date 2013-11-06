@@ -7,19 +7,19 @@ This file should not be tracked in your Git repo.
 -------------------------------------------------------------------------------------------------*/
 
 # We're on the local environment so toggle IN_PRODUCTION off
-define('IN_PRODUCTION', TRUE);
+define('IN_PRODUCTION', FALSE);
 
 # Always display errors on local environment
-define('DISPLAY_ERRORS', FALSE);
+define('DISPLAY_ERRORS', TRUE);
 
 # To avoid accidentally sending a mass amount of emails to your users when testing, always disable outgoing emails on your local environment
-define('ENABLE_OUTGOING_EMAIL', TRUE);
+define('ENABLE_OUTGOING_EMAIL', FALSE);
 
 # To learn more about fakemail, goto /core/controllers/c_coreutils.php test_fakemail()
 define('FAKEMAIL', FALSE);
 
 # Toggle this based on whether you want to connect to your local DB or your live DB
-define('REMOTE_DB', TRUE);
+define('REMOTE_DB', FALSE);
 
 if (REMOTE_DB) {
 	define('DB_HOST', 'localhost');
