@@ -91,6 +91,8 @@ class users_controller extends base_controller {
 
             # Send them back to the login page
             Router::redirect("/users/login/");
+            
+
 
         # But if we did, login succeeded! 
         } else {
@@ -107,7 +109,7 @@ class users_controller extends base_controller {
             setcookie("token", $token, strtotime('+1 year'), '/');
 
             # Send them to the main page - or whever you want them to go
-            Router::redirect("/");
+            Router::redirect("/index.php");
 
     }
            
@@ -134,7 +136,7 @@ class users_controller extends base_controller {
         setcookie("token", "", strtotime('-1 year'), '/');
 
         # Send them back to the main index.
-        Router::redirect("/");
+        Router::redirect("/index.php");
        
     }
 

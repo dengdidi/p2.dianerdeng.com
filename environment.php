@@ -23,7 +23,7 @@ define('REMOTE_DB', TRUE);
 
 if (REMOTE_DB) {
 	define('DB_HOST', 'localhost');
-	define('DB_USER', 'dianerde');
+	define('DB_USER', 'p2_dianerde');
 	define('DB_PASS', 'aclilsw33tgrl');
 
 } else {

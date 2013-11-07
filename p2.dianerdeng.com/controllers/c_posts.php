@@ -6,7 +6,7 @@ class posts_controller extends base_controller {
         parent::__construct();
                 
         if(!$this->user){
-            Router::redirect("/");
+            Router::redirect("/index.php");
         }
     }
 
@@ -35,11 +35,12 @@ class posts_controller extends base_controller {
 
     }
 
+
     public function index() {
 
         # Set up the View
         $this->template->content = View::instance('v_posts_index');
-        $this->template->title   = "All Posts";
+        $this->template->title   = "My Followed Posts";
 
         # Query
         $q = 'SELECT 
@@ -65,7 +66,7 @@ class posts_controller extends base_controller {
         # Render the View
         echo $this->template;
     } 
-   
+
     public function users() {
 
         # Set up the View
@@ -130,4 +131,3 @@ class posts_controller extends base_controller {
 
 }
 ?>
-}

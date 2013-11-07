@@ -1,0 +1,37 @@
+2013-11-06 2:33:20 - INFO --> -------------------------- 
+2013-11-06 2:33:20 - INFO --> Controller/Method: index/index 
+2013-11-06 2:33:21 - INFO --> From: Believr (dianerdeng@fas.harvard.edu) 
+2013-11-06 2:33:21 - INFO --> To: Believr (dianerdeng@fas.harvard.edu),  
+2013-11-06 2:33:21 - INFO --> CC:  
+2013-11-06 2:33:21 - INFO --> BCC:  
+2013-11-06 2:33:21 - INFO --> Subject: Believr SQL Error 
+2013-11-06 2:33:21 - INFO --> Body: <h2>SQL Error</h2>Access denied for user 'dianerde'@'localhost' (using password: YES)<h2>Query History</h2><h2>Routed Controller/Method:</h2> index/index<br/><h2>Cookies</h2><pre>Array
+(
+    [token] => 7149864cd449062b5b93e57f133b93a06872ee16
+    [PHPSESSID] => 22e8a36d25f0f6a1774246a5334f61df
+    [ 
+2013-11-06 2:45:56 - INFO --> -------------------------- 
+2013-11-06 2:45:56 - INFO --> Controller/Method: index/index 
+2013-11-06 2:45:56 - INFO --> From: Believr (dianerdeng@fas.harvard.edu) 
+2013-11-06 2:45:56 - INFO --> To: Believr (dianerdeng@fas.harvard.edu),  
+2013-11-06 2:45:56 - INFO --> CC:  
+2013-11-06 2:45:56 - INFO --> BCC:  
+2013-11-06 2:45:56 - INFO --> Subject: Believr SQL Error 
+2013-11-06 2:45:56 - INFO --> Body: <h2>SQL Error</h2>Access denied for user 'dianerde'@'localhost' (using password: YES)<h2>Query History</h2><h2>Routed Controller/Method:</h2> index/index<br/><h2>Cookies</h2><pre>Array
+(
+    [SQLiteManager_currentLangue] => 2
+    [token] => 7149864cd449062b5b93e57f133b93a06872ee16
+    [PHPSESSID] => 
+2013-11-06 3:53:40 - INFO --> -------------------------- 
+2013-11-06 3:53:40 - INFO --> Controller/Method: users/p_login 
+2013-11-06 3:53:40 - INFO --> From: Believr (dianerdeng@fas.harvard.edu) 
+2013-11-06 3:53:40 - INFO --> To: Believr (dianerdeng@fas.harvard.edu),  
+2013-11-06 3:53:40 - INFO --> CC:  
+2013-11-06 3:53:40 - INFO --> BCC:  
+2013-11-06 3:53:40 - INFO --> Subject: Believr SQL Error 
+2013-11-06 3:53:40 - INFO --> Body: <h2>SQL Error</h2>Access denied for user 'p2_dianerde'@'localhost' (using password: YES)<h2>Query History</h2><h2>Routed Controller/Method:</h2> users/p_login<br/><h2>Cookies</h2><pre>Array
+(
+    [PHPSESSID] => b80772bbb38415513c6e5d650f47f8a8
+    [SQLiteManager_currentLangue] => 2
+)
+</pre><h2>POST< 
