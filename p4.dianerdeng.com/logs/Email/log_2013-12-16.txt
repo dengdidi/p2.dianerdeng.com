@@ -1,0 +1,350 @@
+2013-12-16 20:29:13 - INFO --> -------------------------- 
+2013-12-16 20:29:13 - INFO --> Controller/Method: index/index 
+2013-12-16 20:29:14 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 20:29:14 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 20:29:14 - INFO --> CC:  
+2013-12-16 20:29:14 - INFO --> BCC:  
+2013-12-16 20:29:14 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 20:29:14 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+					FROM users
+					WHERE token = '3b1246044731af649b47ae2932712102425a6bb5'
+					LIMIT 1 No database selected<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '3b1246044731af649b47ae2932712102425a6bb5'
+					LIMIT 1<br><h2>SERVER</h2><pre>Array
+(
+     
+2013-12-16 20:29:33 - INFO --> -------------------------- 
+2013-12-16 20:29:33 - INFO --> Controller/Method: index/index 
+2013-12-16 20:29:33 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 20:29:33 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 20:29:33 - INFO --> CC:  
+2013-12-16 20:29:33 - INFO --> BCC:  
+2013-12-16 20:29:33 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 20:29:33 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+					FROM users
+					WHERE token = '3b1246044731af649b47ae2932712102425a6bb5'
+					LIMIT 1 No database selected<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '3b1246044731af649b47ae2932712102425a6bb5'
+					LIMIT 1<br><h2>SERVER</h2><pre>Array
+(
+     
+2013-12-16 20:29:57 - INFO --> -------------------------- 
+2013-12-16 20:29:57 - INFO --> Controller/Method: posts/users 
+2013-12-16 20:29:57 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 20:29:57 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 20:29:57 - INFO --> CC:  
+2013-12-16 20:29:57 - INFO --> BCC:  
+2013-12-16 20:29:57 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 20:29:57 - INFO --> Body: <h2>SQL Error</h2> SELECT * 
+            FROM users_users
+            WHERE user_id = 1 Table 'dianerde_p4_dianerdeng_com.users_users' doesn't exist<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '3b1246044731af649b47ae2932712102425a6bb5'
+					LIMIT 1<br>1 = SELECT *
+           
+2013-12-16 20:59:08 - INFO --> -------------------------- 
+2013-12-16 20:59:08 - INFO --> Controller/Method: posts/index 
+2013-12-16 20:59:08 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 20:59:08 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 20:59:08 - INFO --> CC:  
+2013-12-16 20:59:08 - INFO --> BCC:  
+2013-12-16 20:59:08 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 20:59:08 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 20:59:18 - INFO --> -------------------------- 
+2013-12-16 20:59:18 - INFO --> Controller/Method: posts/index 
+2013-12-16 20:59:18 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 20:59:18 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 20:59:18 - INFO --> CC:  
+2013-12-16 20:59:18 - INFO --> BCC:  
+2013-12-16 20:59:18 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 20:59:18 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 20:59:24 - INFO --> -------------------------- 
+2013-12-16 20:59:24 - INFO --> Controller/Method: posts/index 
+2013-12-16 20:59:24 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 20:59:24 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 20:59:24 - INFO --> CC:  
+2013-12-16 20:59:24 - INFO --> BCC:  
+2013-12-16 20:59:24 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 20:59:24 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:00:40 - INFO --> -------------------------- 
+2013-12-16 21:00:40 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:00:40 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:00:40 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:00:40 - INFO --> CC:  
+2013-12-16 21:00:40 - INFO --> BCC:  
+2013-12-16 21:00:40 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:00:40 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:00:46 - INFO --> -------------------------- 
+2013-12-16 21:00:46 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:00:46 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:00:46 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:00:46 - INFO --> CC:  
+2013-12-16 21:00:46 - INFO --> BCC:  
+2013-12-16 21:00:46 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:00:46 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:01:54 - INFO --> -------------------------- 
+2013-12-16 21:01:54 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:01:54 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:01:54 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:01:54 - INFO --> CC:  
+2013-12-16 21:01:54 - INFO --> BCC:  
+2013-12-16 21:01:54 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:01:54 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:02:02 - INFO --> -------------------------- 
+2013-12-16 21:02:02 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:02:02 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:02:02 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:02:02 - INFO --> CC:  
+2013-12-16 21:02:02 - INFO --> BCC:  
+2013-12-16 21:02:02 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:02:02 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:02:13 - INFO --> -------------------------- 
+2013-12-16 21:02:13 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:02:13 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:02:13 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:02:13 - INFO --> CC:  
+2013-12-16 21:02:13 - INFO --> BCC:  
+2013-12-16 21:02:13 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:02:13 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:02:15 - INFO --> -------------------------- 
+2013-12-16 21:02:15 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:02:15 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:02:15 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:02:15 - INFO --> CC:  
+2013-12-16 21:02:15 - INFO --> BCC:  
+2013-12-16 21:02:15 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:02:15 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:05:01 - INFO --> -------------------------- 
+2013-12-16 21:05:01 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:05:01 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:05:01 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:05:01 - INFO --> CC:  
+2013-12-16 21:05:01 - INFO --> BCC:  
+2013-12-16 21:05:01 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:05:01 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:08:47 - INFO --> -------------------------- 
+2013-12-16 21:08:47 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:08:47 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:08:47 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:08:47 - INFO --> CC:  
+2013-12-16 21:08:47 - INFO --> BCC:  
+2013-12-16 21:08:47 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:08:47 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:08:49 - INFO --> -------------------------- 
+2013-12-16 21:08:49 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:08:49 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:08:49 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:08:49 - INFO --> CC:  
+2013-12-16 21:08:49 - INFO --> BCC:  
+2013-12-16 21:08:49 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:08:49 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:08:58 - INFO --> -------------------------- 
+2013-12-16 21:08:58 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:08:58 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:08:58 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:08:58 - INFO --> CC:  
+2013-12-16 21:08:58 - INFO --> BCC:  
+2013-12-16 21:08:58 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:08:58 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:09:02 - INFO --> -------------------------- 
+2013-12-16 21:09:02 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:09:02 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:09:02 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:09:02 - INFO --> CC:  
+2013-12-16 21:09:02 - INFO --> BCC:  
+2013-12-16 21:09:02 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:09:02 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:09:05 - INFO --> -------------------------- 
+2013-12-16 21:09:05 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:09:05 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:09:05 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:09:05 - INFO --> CC:  
+2013-12-16 21:09:05 - INFO --> BCC:  
+2013-12-16 21:09:05 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:09:05 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:17:07 - INFO --> -------------------------- 
+2013-12-16 21:17:07 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:17:07 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:17:07 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:17:07 - INFO --> CC:  
+2013-12-16 21:17:07 - INFO --> BCC:  
+2013-12-16 21:17:07 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:17:07 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:17:54 - INFO --> -------------------------- 
+2013-12-16 21:17:54 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:17:54 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:17:54 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:17:54 - INFO --> CC:  
+2013-12-16 21:17:54 - INFO --> BCC:  
+2013-12-16 21:17:54 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:17:54 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:18:02 - INFO --> -------------------------- 
+2013-12-16 21:18:02 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:18:02 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:18:02 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:18:02 - INFO --> CC:  
+2013-12-16 21:18:02 - INFO --> BCC:  
+2013-12-16 21:18:02 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:18:02 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
+2013-12-16 21:22:26 - INFO --> -------------------------- 
+2013-12-16 21:22:26 - INFO --> Controller/Method: posts/index 
+2013-12-16 21:22:26 - INFO --> From: ChipperClipper (dianerdeng@fas.harvard.edu) 
+2013-12-16 21:22:26 - INFO --> To: ChipperClipper (dianerdeng@fas.harvard.edu),  
+2013-12-16 21:22:26 - INFO --> CC:  
+2013-12-16 21:22:26 - INFO --> BCC:  
+2013-12-16 21:22:26 - INFO --> Subject: ChipperClipper SQL Error 
+2013-12-16 21:22:26 - INFO --> Body: <h2>SQL Error</h2> SELECT 
+                posts.content,
+                posts.created,
+                posts.user_id AS post_user_id,
+                users_users.user_id AS follower_id,
+                users.first_name,
+                users.last_name
+            FROM posts
+            INNER JOIN  
