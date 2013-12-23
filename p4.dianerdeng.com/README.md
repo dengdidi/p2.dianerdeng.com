@@ -15,5 +15,7 @@ Features:
 -Following other ChipperClippers
 -Error Handling via javascript
 
+*did encounter an issue with github and it all moved under p2, tried moving it to no avail.
+
 
 
