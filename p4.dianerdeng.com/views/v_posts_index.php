@@ -1,3 +1,6 @@
+<h2>Follow Clippers to See Deals in Your Deal Stream</h2>
+<br>
+
 <?php foreach($posts as $post): ?>
 
 <div id = "article">

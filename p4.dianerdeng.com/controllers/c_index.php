@@ -47,6 +47,17 @@ class index_controller extends base_controller {
 			
 			echo $this->template;
 	}
+
+	public function quikShop(){
+				# Any method that loads a view will commonly start with this
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_index_quikshop');
+			
+		# Now set the <title> tag
+			$this->template->title = "ChipperClipper Quik Calculator";
+			
+			echo $this->template;
+	}
 	
 	
 } # End of class

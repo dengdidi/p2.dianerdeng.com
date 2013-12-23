@@ -18,6 +18,7 @@
         <?php if($user): ?>
 
             <a href='/index.php'> | Home</a>
+            <a href='/index/quikshop'> | Quik Calc</a>
             <a href='/index/shop'> | Shopping List</a> 
             <a href='/posts/add'> | Share Deal</a>  
             <a href='/posts/index'> | Deal Stream</a>  
@@ -27,6 +28,7 @@
         <!-- Menu options for users who are not logged in -->
         <?php else: ?>
             <a href='/index.php'> | Home</a>
+            <a href='/users/error'> | Quik Calc</a>
             <a href='/users/error'> | Shopping List</a> 
             <a href='/users/error'> | Share Deal</a>  
             <a href='/users/error'> | Deal Stream</a>  
@@ -40,7 +42,9 @@
         
     
     <div id="content">
-        <?php if(isset($content)) echo $content; ?>
+        <center>
+            <?php if(isset($content)) echo $content; ?>
+        </center>
     </div>
 
     <br>

@@ -1,4 +1,4 @@
-/* Believr Style Sheet */
+/* ChipperClipper Style Sheet */
 
 html, body, h1, h2, h3, h4, h5, h6, p, border{
 	margin:;
@@ -42,14 +42,14 @@ h2{
 
 h3{	
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	color:#FF8FB4;
+	color:#85DAFF;
 	font-weight: bold;
 	font-size:18px;
 	margin:0px;
 }
 h4{	
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	color:#FF8FB4;
+	color:#85DAFF;
 	font-weight: normal;
 	padding-top:5px;
 	font-size:16px;
@@ -57,7 +57,7 @@ h4{
 }
 h5{	
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	color:#FF8FB4;
+	color:#85DAFF;
 	font-weight: normal;
 	padding-top:5px;
 	font-size:14px;
@@ -82,7 +82,7 @@ a img{
 	font-weight: thick;
 	height:30px;
 	color:#1E6900;
-	font-size:18px;
+	font-size:14px;
 	text-align:center;
 	background-color:#B4FF96;
 	padding-top:10px;
@@ -101,6 +101,12 @@ a img{
 	color:#6266CF;
 	text-align: center;
 	margin:0px;
+}
+
+table
+{
+border:0px solid black;
+margin: 0 auto;
 }
 
 #article{
@@ -138,7 +144,7 @@ a:active, a:hover{
 /* Footer */
 #footer{
 	height:40px;
-	font-size:12px;
+	font-size:10px;
 	color:#1E6900;
 	text-align: center;
 	background-color:#B4FF96;

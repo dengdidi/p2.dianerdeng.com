@@ -29,6 +29,7 @@ class users_controller extends base_controller {
     Process the sign up form
     -------------------------------------------------------------------------------------------------*/
     public function p_signup() {
+
                         
             # Mark the time
             $_POST['created']  = Time::now();
@@ -49,6 +50,7 @@ class users_controller extends base_controller {
             
             # Send them to the login page
             Router::redirect('/users/login');
+       
             
     }
 
@@ -61,7 +63,9 @@ class users_controller extends base_controller {
             $this->template->content = View::instance('v_users_login');  
             $this->template->title   = "Login";
 
-            echo $this->template;   
+            echo $this->template;  
+
+
        
     }
     
@@ -90,7 +94,7 @@ class users_controller extends base_controller {
         if(!$token) {
 
             # Send them back to the login page
-            Router::redirect("/users/login/");
+            Router::redirect("/users/errorlogin/");
             
 
 
@@ -174,5 +178,7 @@ class users_controller extends base_controller {
        # Render the view
         echo $this->template;
     }
+
+
 
 } # end of the class
